@@ -27,18 +27,19 @@ apply plugin: 'kotlin-android'
 android {
     compileSdk = 33
 
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
-    }
-    defaultConfig {
-        minSdkVersion 16
-    }
-    kotlin {
-        jvmToolchain(8)
-    }
-    lintOptions {
-        disable 'InvalidPackage'
-    }
+
+    // sourceSets {
+    //     main.java.srcDirs += 'src/main/kotlin'
+    // }
+    // defaultConfig {
+    //     minSdkVersion 16
+    // }
+    // kotlin {
+    //     jvmToolchain(8)
+    // }
+    // lintOptions {
+    //     disable 'InvalidPackage'
+    // }
 }
 
 dependencies {
